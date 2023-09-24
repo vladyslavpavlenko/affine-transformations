@@ -1,10 +1,10 @@
 # Affine Transformations Functors Lab
 
-Write a class of functors. The class object is initialized by affine transformations f_1, f_2, ... , f_k that act on the plane. The () operator takes a point as input, applies one of the specified transformations to it, and returns its result. The transformation is chosen randomly.
+Write a class of functors. The class object is initialized by affine transformations f_1, f_2, ..., f_k that act on the plane. The () operator takes a point as input, applies one of the specified transformations to it, and returns its result. The transformation is chosen randomly.
 
-The affine transformation of a Euclidean space can be given as f(x) = Mx + v, where M is a square matrix, x, v are vectors. In the case of a plane, the matrix will have dimensions 2x2.
+The affine transformation of an Euclidean space can be given as f(x) = Mx + v, where M is a square matrix, and x, and v are vectors. In the case of a plane, the matrix will have dimensions 2x2.
 
-Write a program that reads from a text file a positive integer n, the initial point and affine transformations. As output, the program writes the generated sequence of n points to a text file.
+Write a program that reads from a text file a positive integer n, the initial point, and affine transformations. As output, the program writes the generated sequence of n points to a text file.
 
 The starting point is the given initial point, each subsequent point in the sequence is obtained by the previous one by applying a random affine transformation to it from the list of given ones.
 
@@ -21,5 +21,5 @@ transformation 3: f(x) = x/2
 _Note. The above transformations should be written in matrix form._
 
 ### Collaborators
-[seemsod1](https://github.com/seemsod1)
-[OleksandrBazhyn](https://github.com/OleksandrBazhyn)
+* [seemsod1](https://github.com/seemsod1)
+* [OleksandrBazhyn](https://github.com/OleksandrBazhyn)
